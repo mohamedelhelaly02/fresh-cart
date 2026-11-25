@@ -1,26 +1,34 @@
-# 🚀 **Introducing Freshcart: E-commerce Platform** 🛒
+# Freshcart
 
-Thrilled to share **Freshcart**, a powerful e-commerce app built with **Angular**, designed to enhance the online shopping experience with seamless features and secure payment integration.
+E-commerce storefront built with Angular 18. This is a frontend project: I built the UI and client-side logic on top of an existing, ready-made REST API. I did not write the API.
 
-## 🔑 **Core Features**:
-- **Authentication**: 🔐 Login, Register, Forgot/Reset Password, and Profile Updates
-- **Product & Brand Services**: 🛍 Search by Name or Category, fetch by ID, and Paginated Listings
-- **Cart & Wishlist Management**: 🛒 Add, Remove, Clear Cart, and manage Wishlist
-- **Category Services**: 📂 View all Categories, Subcategories, and organize products
-- **Payment Module**: 💳 **Secure Stripe Integration** for handling payments effortlessly
+## Features
 
-## 💡 **Technology Stack**:
-- **Angular Best Practices**: Pipes, Interceptors, Guards, Directives, Routing for maintainable, modular code
-- **Reactive Programming**: Powered by **RxJS** and **BehaviorSubject** for real-time, responsive updates 🔄
-- **Form Handling**: Efficiently managed using **Reactive Forms**
-- **UI/UX Boost**: Enhanced with **ngx-spinner**, **ngx-toaster**, **ngx-pagination**, and **ngx-owl-carousel-o** for an engaging user experience
-- **JWT Decoding**: Implemented **jwtDecode** for secure authentication token management
-- **Additional Technologies**: Utilized **HTML**, **CSS**, **Bootstrap**, **TypeScript**, and **Font Awesome** for a polished and responsive design.
+- Authentication: login, register, forgot and reset password, profile update
+- Products and brands: search by name or category, product details, paginated lists
+- Cart and wishlist: add, remove, clear
+- Categories and subcategories
+- Stripe payment integration
 
-With **Freshcart**, users can easily search, manage products, and make secure payments via **Stripe**. This project combines robust functionality with a streamlined shopping experience.
+## What I built
 
-🔗 Check out the GitHub repository: [Freshcart on GitHub](https://github.com/NetNinjaEngineer/fresh-cart)
+- Route guards, HTTP interceptors, pipes and directives
+- State sharing with RxJS and BehaviorSubject
+- Reactive Forms with validation
+- JWT decoding for the signed-in user (jwt-decode)
+- UI with Bootstrap, ngx-spinner, ngx-toastr, ngx-pagination and ngx-owl-carousel-o
 
-Looking forward to sharing more!
+## Tech stack
 
-#Angular #Ecommerce #Stripe #Payments #WebDevelopment #RxJS #FrontendDev #FullStackDev #SoftwareEngineering #Freshcart #TechInnovation #HTML #CSS #Bootstrap #TypeScript #FontAwesome
+Angular 18, TypeScript, RxJS, Bootstrap 5, Font Awesome
+
+## Run locally
+
+```sh
+git clone https://github.com/mohamedelhelaly02/fresh-cart.git
+cd fresh-cart
+npm install
+ng serve
+```
+
+Open http://localhost:4200
